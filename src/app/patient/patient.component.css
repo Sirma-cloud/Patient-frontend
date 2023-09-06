@@ -1,0 +1,40 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This centers the form vertically on the screen */
+  }
+
+  .patient-form {
+    width: 70%; 
+  }
+  
+  .example-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px; 
+  }
+  
+  .form-field {
+    width: 100%;
+    margin-bottom: 12px; 
+  }
+  
+  button {
+    margin-top: 16px; 
+  }
+  .green-button {
+    background-color: green; 
+    color: white; 
+  }
+  
+  .green-button:hover {
+    background-color: darkgreen; 
+  }
+
+  .red-button{
+    background-color: rgb(221, 8, 8); 
+    color: white; 
+  }
+ 
